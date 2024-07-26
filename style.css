@@ -1,0 +1,1458 @@
+.header{
+    display: flex;
+}
+
+.logo{
+    padding-top: 10px;
+}
+
+.logo :hover{
+    cursor: pointer;
+}
+
+.navbar{
+    padding-top: 20px;
+    padding-left: 70px;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.elements a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.elements :hover{
+    color:rgb(145, 139, 139)
+}
+
+.elements{
+    list-style-type: none;
+}
+
+.button1{
+    /* background-color: blueviolet; */
+    width: 200px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.button1 button{
+    margin-top: 1px;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: 5px solid rgb(32, 161, 32);
+    background-color: rgb(32, 161, 32);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button2{
+    /* background-color: blueviolet; */
+    width: 200px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.button2 button{
+    margin-top: 1px;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    border: 3px solid rgb(40, 194, 40);
+    color: rgb(40, 194, 40);
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button1 :hover{
+    cursor: pointer;
+    border: 5px solid rgb(59, 176, 59);
+    background-color: rgb(59, 176, 59);
+}
+
+.button2 :hover{
+    cursor: pointer;
+    border: 3px solid rgb(109, 186, 109);
+    color: rgb(109, 186, 109);
+}
+
+.page1{
+    display: flex;
+}
+.page1left{
+    /* background-color: aqua; */
+    height: 400px;
+    width: 100%;
+}
+
+.text{
+    /* background-color: aquamarine; */
+    width: 600px;
+    height: 220px;
+}
+
+.text p{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.green{
+    color: rgb(43, 201, 43);
+}
+
+.gray{
+    /* background-color: black; */
+    width: 600px;
+    color: rgb(175, 172, 172);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.twobuttons{
+    /* background-color: bisque; */
+    width: 600px;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.graybutton1{
+    /* background-color: blueviolet; */
+    width: 200px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.graybutton1 button{
+    margin-top: 1px;
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-bottom: 15px;
+    padding-right: 45px;
+    border-radius: 30px;
+    border: 3px solid rgb(40, 194, 40);
+    color: rgb(40, 194, 40); 
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.graybutton2{
+    /* background-color: blueviolet; */
+    width: 200px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.graybutton2 button{
+    margin-top: 1px;
+    padding-top: 15px;
+    padding-left: 45px;
+    padding-bottom: 15px;
+    padding-right: 45px;
+    border-radius: 30px;
+    border: 3px solid rgb(76, 218, 76);
+    background-color: rgb(76, 218, 76);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.graybutton1 p i{
+    font-weight: 600;
+}
+
+.graybutton2 p i{
+    font-weight: 600;
+}
+
+.graybutton2 button:hover{
+    cursor: pointer;
+    border: 5px solid rgb(59, 176, 59);
+    background-color: rgb(59, 176, 59);
+}
+
+.graybutton1 button:hover{
+    cursor: pointer;
+    border: 3px solid rgb(109, 186, 109);
+    color: rgb(109, 186, 109);
+}
+
+.page1right img{
+    padding-top: 30px;
+}
+
+.page2pic{
+    margin-left: 550px;
+    margin-top: 150px;
+    /* background-color: bisque; */
+    width: 90px;
+}
+
+.page2text1{
+    margin-left: 360px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    /* background-color: aqua; */
+}
+
+.page2text1 {
+    margin-top: 10px;
+}
+
+.page2text2{
+    /* background-color: blueviolet; */
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: 0; */
+    color: rgb(52, 51, 51);
+}
+
+.page2text3{
+    margin-left: 380px;
+    margin-right: 350px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(101, 100, 100);
+    /* background-color: brown; */
+    display: flex;
+}
+
+.page2images{
+    /* background-color: brown; */
+    margin-top: 30px;
+    width: 100%;
+    height: 900px;
+}
+
+.background{
+    margin-left: 55px;
+    background-color: rgb(20, 171, 20);
+    width: 1140px;
+    height: 800px;
+    border-radius: 20px;
+    padding-top: 40px;
+}
+
+.boxes{
+    display: flex;
+}
+
+.box1{
+    width: 260px;
+    height: 700px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color:white
+}
+
+.box1 :hover{
+    cursor: pointer;
+}
+
+.box1 img{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.box1text1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.box1text2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(95, 92, 92);
+}
+
+.box1 button{
+    background-color:rgb(20, 171, 20) ;
+    color: white;
+    border-radius: 10px;
+    border: 10px solid rgb(20, 171, 20);
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+}
+
+ .box2{ 
+    width: 260px;
+    height: 700px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.box2 :hover{
+    cursor: pointer;
+}
+
+.box2 img{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.box2text1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.box2text2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(95, 92, 92);
+}
+
+.box2 button{
+    background-color:rgb(20, 171, 20) ;
+    color: white;
+    border-radius: 10px;
+    border: 10px solid rgb(20, 171, 20);
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+}
+
+.box3{
+    width: 260px;
+    height: 700px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.box3 :hover{
+    cursor: pointer;
+}
+
+.box3 img{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.box3text1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.box3text2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(95, 92, 92);
+}
+
+.box3 button{
+    background-color:rgb(20, 171, 20) ;
+    color: white;
+    border-radius: 10px;
+    border: 10px solid rgb(20, 171, 20);
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+}
+
+.box4{
+    width: 260px;
+    height: 700px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: white;
+} 
+
+.box4 :hover{
+    cursor: pointer;
+}
+
+.box4 img{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.box4text1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.box4text2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(95, 92, 92);
+}
+
+.box4 button{
+    background-color:rgb(20, 171, 20) ;
+    color: white;
+    border-radius: 10px;
+    border: 10px solid rgb(20, 171, 20);
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+}
+
+.backgroundlasttext{
+    margin-left: 350px;
+    margin-top: 40px;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.page3{
+    /* background-color: rgb(0, 255, 55); */
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.page3textbutton{
+    display: flex;
+}
+
+.page3text{
+    /* background-color: rgb(30, 193, 138); */
+    width: 600px;
+    height: 200px;
+    font-family: sans-serif;
+    font-size: x-large;
+    color: rgb(130, 127, 127);
+}
+
+.page3textbold{
+    font-weight: 750;
+}
+
+.page3button{
+    margin-left: 470px;
+    margin-top: 150px;
+}
+
+.page3button button{
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.page3button :hover{
+    cursor: pointer;
+    background-color:  #8c52fe;
+}
+
+.page3boxes1{
+    /* background-color: blue; */
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    padding-top: 10px;
+    /* padding-left: 40px; */
+    display: flex;
+}
+
+.page3boxes1box1{
+    /* background-color: blueviolet; */
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 216, 216);
+    margin-left: 40px;
+}
+
+.page3boxes1box1 :hover{
+    cursor: pointer;
+}
+
+.page3boxes1box1 img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.page3boxes1box1 p{
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.page3boxes1box1button{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.page3boxes1box1button button{
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #43a724;
+    background-color: #43a724 ;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+
+}
+
+.page3boxes1box2{
+    /* background-color: rgb(123, 68, 174); */
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 216, 216);
+    margin-left: 50px;
+}
+
+.page3boxes1box2 :hover{
+    cursor: pointer;
+}
+
+.page3boxes1box2 img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.page3boxes1box2 p{
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.page3boxes1box2button{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.page3boxes1box2button button{
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #43a724;
+    background-color: #43a724 ;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.page3boxes1box3{
+    /* background-color: rgb(43, 226, 113); */
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 216, 216);
+    margin-left: 50px;
+}
+
+.page3boxes1box3 :hover{
+    cursor: pointer;
+}
+
+.page3boxes1box3 img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.page3boxes1box3 p{
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.page3boxes1box3button{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.page3boxes1box3button button{
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #43a724;
+    background-color: #43a724 ;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.page3boxes2{
+    /* background-color: rgb(255, 132, 0); */
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.page3boxes2box1{
+    /* background-color: rgb(66, 13, 116); */
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 216, 216);
+    margin-left: 40px;
+}
+
+.page3boxes2box1 :hover{
+    cursor: pointer;
+}
+
+.page3boxes2box1 img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.page3boxes2box1 p{
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.page3boxes2box1button{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.page3boxes2box1button button{
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #43a724;
+    background-color: #43a724 ;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+
+}
+
+.page3boxes2box2{
+    /* background-color: rgb(43, 119, 226); */
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 216, 216);
+    margin-left: 50px;
+}
+
+.page3boxes2box2 :hover{
+    cursor: pointer;
+}
+
+.page3boxes2box2 img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.page3boxes2box2 p{
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.page3boxes2box2button{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.page3boxes2box2button button{
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #43a724;
+    background-color: #43a724 ;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.page3boxes2box3{
+    /* background-color: rgb(226, 43, 186); */
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 216, 216);
+    margin-left: 50px;
+}
+
+.page3boxes2box3 :hover{
+    cursor: pointer;
+}
+
+.page3boxes2box3 img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.page3boxes2box3 p{
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.page3boxes2box3button{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.page3boxes2box3button button{
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #43a724;
+    background-color: #43a724 ;
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.page4{
+    background-color:  whitesmoke;
+    height: 800px;
+    margin-top: 1000px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page4text{
+    /* background-color: rgb(238, 226, 226); */
+    height: 100px;
+    padding-left: 550px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.page4textbold{
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.page4boxes{
+    height: 700px;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.page4box1{
+    width: 250px;
+    height: 600px;
+    /* background-color: brown; */
+    margin-left: 60px;
+}
+
+.page4box1bold{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+
+.page4box1 p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(150, 148, 148);
+}
+
+.page4box2{
+    width: 250px;
+    height: 600px;
+    /* background-color: brown; */
+    margin-left: 40px;
+}
+
+.page4box2bold{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+
+.page4box2 p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(150, 148, 148);
+}
+
+.page4box3{
+    width: 250px;
+    height: 600px;
+    /* background-color: brown; */
+    margin-left: 40px;
+}
+
+.page4box3bold{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+
+.page4box3 p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(150, 148, 148);
+}
+
+.page4box4{
+    width: 250px;
+    height: 600px;
+    /* background-color: brown; */
+    margin-left: 40px;
+}
+
+.page4box4bold{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+
+.page4box4 p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(150, 148, 148);
+}
+
+.page5{
+    /* background-color: cadetblue; */
+    height: 700px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.page5righttext1{
+    /* background-color: chartreuse; */
+    height: 250px;
+    margin-right: 60px;
+}
+
+.page5rightalltext{
+    margin-left: 20px;
+}
+
+.span1{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.span2{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.span3{
+    font-family: sans-serif;
+    font-size: larger;
+    color:  rgb(142, 138, 138);
+}
+
+.page5righttext2{
+    /* background-color: rgb(210, 30, 33); */
+    height: 320px;
+    /* margin-left: 600px; */
+    display: flex;
+}
+
+.page5righttext2T1{
+    /* background-color: rgb(92, 80, 255); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 60px;
+}
+
+.page5righttext2T1 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page5righttext2T2{
+    /* background-color: rgb(255, 80, 217); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 70px;
+}
+
+.page5righttext2T2 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page5righttext3{
+    /* background-color: rgb(48, 210, 30); */
+    height: 400px;
+    /* margin-left: 600px; */
+    display: flex;
+}
+
+.page5righttext3T1{
+    /* background-color: rgb(80, 200, 255); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 60px;
+}
+
+.page5righttext3T1 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page5righttext3T2{
+    /* background-color: rgb(116, 36, 8); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 70px;
+}
+
+.page5righttext3T2 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page5leftpic img {
+    margin-top: 200px;
+}
+
+.page6{
+    /* background-color: cadetblue; */
+    height: 700px;
+    margin-top: 400px;
+    display: flex;
+}
+
+.page6righttext1{
+    /* background-color: chartreuse; */
+    height: 250px;
+    margin-right: 60px;
+}
+
+.page6rightalltext{
+    margin-left: 20px;
+}
+
+.span1{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.span2{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.span3{
+    font-family: sans-serif;
+    font-size: larger;
+    color:  rgb(142, 138, 138);
+}
+
+.page6righttext2{
+    /* background-color: rgb(210, 30, 33); */
+    height: 300px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.page6righttext2T1{
+    /* background-color: rgb(92, 80, 255); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+}
+
+.page6righttext2T1 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page6righttext2T2{
+    /* background-color: rgb(255, 80, 217); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 50px;
+}
+
+.page6righttext2T2 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page6righttext3{
+    /* background-color: rgb(48, 210, 30); */
+    height: 400px;
+    display: flex;
+}
+
+.page6righttext3T1{
+    /* background-color: rgb(80, 200, 255); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+}
+
+.page6righttext3T1 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page6righttext3T2{
+    /* background-color: rgb(116, 36, 8); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 50px;
+}
+
+.page6righttext3T2 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page6leftpic img {
+    margin-top: 200px;
+}
+
+.page7{
+    /* background-color: cadetblue; */
+    height: 700px;
+    margin-top: 400px;
+    display: flex;
+}
+
+.page7righttext1{
+    /* background-color: chartreuse; */
+    height: 250px;
+    margin-right: 60px;
+}
+
+.page7rightalltext{
+    margin-left: 20px;
+}
+
+.span1{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.span2{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.span3{
+    font-family: sans-serif;
+    font-size: larger;
+    color:  rgb(142, 138, 138);
+}
+
+.page7righttext2{
+    /* background-color: rgb(210, 30, 33); */
+    height: 300px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.page7righttext2T1{
+    /* background-color: rgb(92, 80, 255); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 60px;
+}
+
+.page7righttext2T1 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page7righttext2T2{
+    /* background-color: rgb(255, 80, 217); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 70px;
+}
+
+.page7righttext2T2 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page7righttext3{
+    /* background-color: rgb(48, 210, 30); */
+    height: 400px;
+    display: flex;
+}
+
+.page7righttext3T1{
+    /* background-color: rgb(80, 200, 255); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 60px;
+}
+
+.page7righttext3T1 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page7righttext3T2{
+    /* background-color: rgb(116, 36, 8); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 70px;
+}
+
+.page7righttext3T2 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page7leftpic img {
+    margin-top: 200px;
+}
+
+.page8{
+    /* background-color: cadetblue; */
+    height: 700px;
+    margin-top: 400px;
+    display: flex;
+}
+
+.page8righttext1{
+    /* background-color: chartreuse; */
+    height: 250px;
+    margin-right: 60px;
+}
+
+.page8rightalltext{
+    margin-left: 20px;
+}
+
+.span1{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.span2{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.span3{
+    font-family: sans-serif;
+    font-size: larger;
+    color:  rgb(142, 138, 138);
+}
+
+.page8righttext2{
+    /* background-color: rgb(210, 30, 33); */
+    height: 150px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.page8righttext2T1{
+    /* background-color: rgb(92, 80, 255); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+}
+
+.page8righttext2T1 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page8righttext2T2{
+    /* background-color: rgb(255, 80, 217); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 50px;
+}
+
+.page8righttext2T2 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page8righttext3{
+    /* background-color: rgb(48, 210, 30); */
+    height: 400px;
+    display: flex;
+}
+
+.page8righttext3T1{
+    /* background-color: rgb(80, 200, 255); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+}
+
+.page8righttext3T1 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page8righttext3T2{
+    /* background-color: rgb(116, 36, 8); */
+    width: 220px;
+    height: 280px;
+    font-family: sans-serif;
+    color:  rgb(142, 138, 138);
+    font-size: large;
+    margin-left: 50px;
+}
+
+.page8righttext3T2 span{
+    font-weight: 600;
+    color:rgb(107, 103, 103) ;
+}
+
+.page8leftpic img {
+    margin-top: 200px;
+}
+
+.page9{
+    /* background-color: #8c52fe; */
+    height: 600px;
+    margin-top: 300px;
+    display: flex;
+}
+
+.page9left{
+    width: 550px;
+    /* background-color: aqua; */
+}
+
+.page9left p{
+    font-family: sans-serif;
+    font-size: larger;
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+.page9leftbold{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.page9rightpic img{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.page10{
+    background-color:  whitesmoke;
+    height: 700px;
+    margin-top: 300px;
+    padding-top: 30px;
+}
+
+.page10textbold p{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.page10boxes{
+    /* background-color: blueviolet; */
+    height: 400px;
+    display: flex;
+}
+
+.page10boxesbox1{
+    width: 470px;
+    height: 350px;
+    margin-left: 100px;
+    background-color: rgb(36, 32, 32);
+    border-radius: 40px;
+}
+
+.page10boxesbox1 p{
+    padding: 40px 40px 20px 40px;
+    font-family: sans-serif;
+    font-size: large;
+    font-size: 20px;
+    color: white;
+}
+
+.page10boxesbox1 span{
+    color: yellow;
+}
+
+.page10boxesbox2{
+    width: 470px;
+    height: 350px;
+    margin-left: 100px;
+    background-color: rgb(36, 32, 32);
+    border-radius: 40px;
+}
+
+.page10boxesbox2 p{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 40px 40px 20px 40px;
+    font-family: sans-serif;
+    font-size: large;
+    font-size: 20px;
+    color: white;
+}
+
+.page10boxesbox2 span{
+    color: yellow;
+}
+
+.page11{
+    background-color: whitesmoke; 
+    margin-top: 200px;
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.page11pic img{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.page11text1{
+    /* background-color: aquamarine; */
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+}
+
+.page11text1 span{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.page11text1 p a{
+    color:  rgb(142, 138, 138);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.page11text2{
+    /* background-color: aquamarine; */
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+.page11text2 span{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.page11text2 p a{
+    color:  rgb(142, 138, 138);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.page11text3{
+    /* background-color: aquamarine; */
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+.page11text3bold {
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.page11pic2{
+    margin-left: 10px;
+}
+
+.page11pic3{
+    margin-left: 10px;
+}
+
+.page11pic4{
+    margin-left: 10px;
+}
+
+.page11text3gray a{
+    color:  rgb(142, 138, 138);
+    text-decoration: none;
+    font-family: sans-serif;
+}
